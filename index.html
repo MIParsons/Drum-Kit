@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drum Kit</title>
-    <link rel="shortcut icon" href="drumsticks.png" type="image/x-icon">
-    <link rel="stylesheet" href="app.css">
+    <link rel="shortcut icon" href="./assets/favicon/drumsticks.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/app.css">
 </head>
 
 <body>
@@ -18,20 +18,20 @@
             </g>
             </g>
             <g>
-            <g onclick="play()" class = "kick">
+            <g onclick="play('boom')" class="kick">
             <rect stroke="#000" height="155.706147" width="364.001787" y="157.099623" x="643.499025" stroke-width="6" fill="#ff0000" />
             <g>
             <rect height="74.000367" width="43.000213" y="312.453055" x="803.499791" stroke-width="6" stroke="#000" fill='#6b6b6b' />
             <ellipse stroke="#000" ry="14.50006" rx="14.50006" cy="337.95319" cx="825.99991" stroke-width="6" fill="#ffffff" />
             </g>
             </g>
-            <ellipse onclick="play2()" class="hiTom" stroke="#000" ry="76.500381" rx="76.500381" cy="232.952682" cx="706.999387" stroke-width="6" fill="#ffffff" />
-            <ellipse onclick="play3()" class="snrDrum" stroke="#000" ry="79.500394" rx="79.500394" cy="408.453517" cx="660.999033" stroke-width="6" fill="#ffffff" />
-            <ellipse onclick="play4()" class="flrTom" stroke="#000" ry="85.000431" rx="85.000431" cy="408.453537" cx="1005.500802" stroke-width="6" fill="#ffffff" />
-            <ellipse onclick="play5()" class="midTom" stroke="#000" ry="83.000409" rx="83.000409" cy="234.952675" cx="934.500452" stroke-width="6" fill="#ffffff" />
-            <ellipse onclick="play6()" class="crsCymbal" stroke="#000" ry="82.500405" rx="82.500405" cy="234.952677" cx="529.998476" stroke-width="6" fill="#ffe344" />
-            <ellipse onclick="play7()" class="rdeCymbal" stroke="#000" ry="93.500467" rx="93.500467" cy="234.952671" cx="1149.001506" stroke-width="6" fill="#ffe344" />
-            <g onclick="play8()" class="highHatCymbal" >
+            <ellipse onclick="play('highTom')" class="hiTom" stroke="#000" ry="76.500381" rx="76.500381" cy="232.952682" cx="706.999387" stroke-width="6" fill="#ffffff" />
+            <ellipse onclick="play('snareDrum')" class="snrDrum" stroke="#000" ry="79.500394" rx="79.500394" cy="408.453517" cx="660.999033" stroke-width="6" fill="#ffffff" />
+            <ellipse onclick="play('floorTom')" class="flrTom" stroke="#000" ry="85.000431" rx="85.000431" cy="408.453537" cx="1005.500802" stroke-width="6" fill="#ffffff" />
+            <ellipse onclick="play('middleTom')" class="midTom" stroke="#000" ry="83.000409" rx="83.000409" cy="234.952675" cx="934.500452" stroke-width="6" fill="#ffffff" />
+            <ellipse onclick="play('crashCymbal')" class="crsCymbal" stroke="#000" ry="82.500405" rx="82.500405" cy="234.952677" cx="529.998476" stroke-width="6" fill="#ffe344" />
+            <ellipse onclick="play('rideCymbal')" class="rdeCymbal" stroke="#000" ry="93.500467" rx="93.500467" cy="234.952671" cx="1149.001506" stroke-width="6" fill="#ffe344" />
+            <g onclick="play('hiHatCymbal')" class="highHatCymbal" >
             <rect stroke="#000" transform="rotate(-40.3469123840332
             549.8106689453123,495.55566406250006)"height="58.980545" width="34.272479" y="466.065332" x="532.67443" stroke-width="6" fill="#6b6b6b" />
             <ellipse ry="64.000318" rx="64.000318" cy="440.45369" cx="501.498297" stroke="#000" stroke-width="6" fill="#ffe344" />
@@ -40,16 +40,16 @@
             <ellipse ry="64.50032" rx="64.50032" cy="520.954087" cx="823.999892" stroke-width="6" />
     </svg>
     </div>
-    <audio id="boom" autostart="false" src="kick.wav"></audio>
-    <audio id="highTom" autostart="false" src="tom-high.wav"></audio>
-    <audio id="snareDrum" autostart="false" src="snare.wav"></audio>
-    <audio id="floorTom" autostart="false" src="tom-low.wav"></audio>
-    <audio id="middleTom" autostart="false" src="tom-mid.wav"></audio>
-    <audio id="crashCymbal" autostart="false" src="crash.wav"></audio>
-    <audio id="rideCymbal" autostart="false" src="ride.wav"></audio>
-    <audio id="hiHatCymbal" autostart="false" src="hihat-open.wav"></audio>
+    <audio id="boom" autostart="false" src="./assets/sounds/kick.wav"></audio>
+    <audio id="highTom" autostart="false" src="./assets/sounds/tom-high.wav"></audio>
+    <audio id="snareDrum" autostart="false" src="./assets/sounds/snare.wav"></audio>
+    <audio id="floorTom" autostart="false" src="./assets/sounds/tom-low.wav"></audio>
+    <audio id="middleTom" autostart="false" src="./assets/sounds/tom-mid.wav"></audio>
+    <audio id="crashCymbal" autostart="false" src="./assets/sounds/crash.wav"></audio>
+    <audio id="rideCymbal" autostart="false" src="./assets/sounds/ride.wav"></audio>
+    <audio id="hiHatCymbal" autostart="false" src="./assets/sounds/hihat-open.wav"></audio>
 
-    <script src="app.js"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
