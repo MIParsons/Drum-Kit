@@ -18,37 +18,37 @@ svg {
     transform-origin: 100% 35%;
 }
 
-.popHT {
+.pophiTom {
     transform: scale(1.05);
     transform-origin: 83% 35%;
 }
 
-.popSNR {
+.popsnrDrum {
     transform: scale(1.05);
     transform-origin: 79% 56%;
 }
 
-.popFLR {
+.popflrTom {
     transform: scale(1.05);
     transform-origin: 116% 56%;
 }
 
-.popMT {
+.popmidTom {
     transform: scale(1.05);
     transform-origin: 112% 35%;
 }
 
-.popCRS {
+.popcrsCymbal {
     transform: scale(1.05);
     transform-origin: 65% 35%;
 }
 
-.popRDE {
+.poprdeCymbal {
     transform: scale(1.05);
     transform-origin: 136% 35%;
 }
 
-.popHH {
+.pophighHatCymbal {
     transform: scale(1.05);
     transform-origin: 60% 60%;
 }
