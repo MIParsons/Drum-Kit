@@ -16,39 +16,71 @@ svg {
 .popKick {
     transform: scale(1.04);
     transform-origin: 100% 35%;
+    -webkit-transform-origin: 100% 35%;
+    -moz-transform-origin: 100% 35%;
+    -ms-transform-origin: 100% 35%;
+    -o-transform-origin: 100% 35%;
 }
 
 .pophiTom {
     transform: scale(1.05);
     transform-origin: 83% 35%;
+    -webkit-transform-origin: 83% 35%;
+    -moz-transform-origin: 83% 35%;
+    -ms-transform-origin: 83% 35%;
+    -o-transform-origin: 83% 35%;
 }
 
 .popsnrDrum {
     transform: scale(1.05);
     transform-origin: 79% 56%;
+    -webkit-transform-origin: 79% 56%;
+    -moz-transform-origin: 79% 56%;
+    -ms-transform-origin: 79% 56%;
+    -o-transform-origin: 79% 56%;
 }
 
 .popflrTom {
     transform: scale(1.05);
     transform-origin: 116% 56%;
+    -webkit-transform-origin: 116% 56%;
+    -moz-transform-origin: 116% 56%;
+    -ms-transform-origin: 116% 56%;
+    -o-transform-origin: 116% 56%;
 }
 
 .popmidTom {
     transform: scale(1.05);
     transform-origin: 112% 35%;
+    -webkit-transform-origin: 112% 35%;
+    -moz-transform-origin: 112% 35%;
+    -ms-transform-origin: 112% 35%;
+    -o-transform-origin: 112% 35%;
 }
 
 .popcrsCymbal {
     transform: scale(1.05);
     transform-origin: 65% 35%;
+    -webkit-transform-origin: 65% 35%;
+    -moz-transform-origin: 65% 35%;
+    -ms-transform-origin: 65% 35%;
+    -o-transform-origin: 65% 35%;
 }
 
 .poprdeCymbal {
     transform: scale(1.05);
     transform-origin: 136% 35%;
+    -webkit-transform-origin: 136% 35%;
+    -moz-transform-origin: 136% 35%;
+    -ms-transform-origin: 136% 35%;
+    -o-transform-origin: 136% 35%;
 }
 
 .pophighHatCymbal {
     transform: scale(1.05);
     transform-origin: 60% 60%;
+    -webkit-transform-origin: 60% 60%;
+    -moz-transform-origin: 60% 60%;
+    -ms-transform-origin: 60% 60%;
+    -o-transform-origin: 60% 60%;
 }
